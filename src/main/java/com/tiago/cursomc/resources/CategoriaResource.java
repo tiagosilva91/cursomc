@@ -18,11 +18,13 @@ public class CategoriaResource {
 		
 		Categoria cat1 = new Categoria(1, "Informática");
 		Categoria cat2 = new Categoria(2, "Escritório");
-		
+		System.out.println("TEste COMIT");
 		List<Categoria> list = new ArrayList<>();
 		list.add(cat1);
 		list.add(cat2);
 		
 		return list;
+		
+		
 	}
 }
